@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:appcompat="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/tools">
+
+
+    <item
+        android:id="@+id/Search"
+        android:title="Search"
+        />
+
+    <item
+        android:id="@+id/Share"
+        android:title="Share Location"
+        android:showAsAction="ifRoom|withText"
+        />
+
+    <item
+        android:id="@+id/About"
+        android:title="About"
+        android:showAsAction="ifRoom|withText"
+        />
+
+    <item
+        android:id="@+id/Rate"
+        android:title="Rate"
+        android:icon="@drawable/restaurant"
+        android:showAsAction="ifRoom|withText"
+        />
+
+    <item
+        android:id="@+id/EXIT"
+        android:title="Exit"
+        android:icon="@drawable/atm"
+        android:showAsAction="ifRoom|withText"
+        />
+</menu>
